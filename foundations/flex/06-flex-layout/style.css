@@ -34,6 +34,7 @@ li {
 
 img {
   width: 600px;
+  margin: 0 auto;
 }
 
 button {
@@ -41,6 +42,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  margin: 20px;
 }
 
 input {
@@ -48,6 +50,7 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  
 }
 
 .header {
@@ -60,5 +63,16 @@ input {
 }
 
 .content {
+  align-self: center;
+  gap: 18px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
   justify-content: center;
 }
